@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FuelRadar สิงห์บุรี</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+<header>
+  <h1>📡 FuelRadar สิงห์บุรี</h1>
+</header>
+
+<div class="dashboard">
+  <div class="card" id="totalStations">ปั๊มทั้งหมด: 0</div>
+</div>
+
+<div id="map"></div>
+
+<section id="stations"></section>
+
+<footer>© สำนักงานจังหวัดสิงห์บุรี</footer>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
